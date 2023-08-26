@@ -13,7 +13,7 @@
             <nav>
                 <a class="nlinks" href="#About">About</a>
                 <a class="nlinks" href="#Services">Services</a>
-                <a class="nlinks" href="{{url_for(contact)}}">Contact</a>
+                <a class="nlinks" href="{{url_for('contact')}}">Contact</a>
                 <button class="signupbtn">Signup</button>
             </nav>
         </div>
@@ -52,7 +52,7 @@
                     <p class="servdesc">
                         We provide personalized assistance to help you create compelling scholarship applications that highlight your strengths and increase your chances of receiving funding for your education
                     </p>
-                    <a href="#ScholarshipGuide" class="readmore">Read More</a>
+                    <a href="{{url_for('scholarship_Guide')}}" class="readmore">Read More</a>
                 </div>
             </div>
         </section>
