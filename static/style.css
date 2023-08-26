@@ -1,0 +1,115 @@
+body
+{
+    font-family: 'Poppins';
+    margin:0;
+}
+header
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    height: 10vh;
+}
+.Name{
+    margin-left: 3em;
+
+}
+nav
+{
+    margin:1.5em;
+}
+.nlinks
+{
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  padding: 2em;
+}
+.signupbtn{
+    border-radius: 0.7em;
+    font-size: 1.3em;
+    padding:0.3em;
+    background-color: #2370E1;
+    color: white;
+    
+}
+.banner{
+    height: auto;
+    background-color: #F4F8FD;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.bannerheading{
+
+    font-size: 2.5em;
+    width:40%;
+
+}
+.bannerimg{
+    width:30%
+
+}
+.bannercontent{
+    font-size: 0.5em;
+}
+.servs
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #F4F8FD;
+    flex-wrap:wrap;
+}
+.serv{
+    width:30%;
+    height: 60vh;
+    text-align: center;
+}
+.servimg{
+    width:auto;
+    height: 60%;
+}
+.servheading{
+    text-align: center;
+
+}
+.services
+{
+    background-color: #F4F8FD;
+    padding: 4em;
+    height: auto;
+}
+.servdesc
+{
+    width:60%;
+    margin:auto;
+    text-align: left;
+}
+.readmore
+{
+    
+}
+footer{
+    text-align:center;
+    background-color: #F4F8FD;
+    padding: 1em;
+}
+.abtdesc
+{
+    margin: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height:60vh;
+}
+.abt
+{
+    width:45%;
+    text-align: center;
+    padding: 4em;
+    font-size: 1.4em;
+}
+.abtimg
+{
+
+}
