@@ -62,7 +62,7 @@ nav
 }
 .serv{
     width:30%;
-    height: 90vh;
+    height: 60vh;
     text-align: center;
 }
 .servimg{
@@ -81,7 +81,7 @@ nav
 }
 .servdesc
 {
-    width:60%;
+    width:70%;
     margin:auto;
     text-align: left;
 }
