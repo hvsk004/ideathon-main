@@ -10,5 +10,16 @@ def home():
     return render_template('index.html')
 
 
+
+@app.route('/guide')
+def scholarship_Guide():
+	return render_template('scolarship_guide.html')
+
+@app.route('/contact')
+def contact():
+	return render_template('contact.html')
+
+	
+
 if __name__ == "__main__":
     app.run(debug=True)
