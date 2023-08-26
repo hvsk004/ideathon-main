@@ -15,6 +15,10 @@ def home():
 def scholarship_Guide():
 	return render_template('scolarship_guide.html')
 
+@app.route('/contact')
+def contact():
+	return render_template('contact.html')
+
 	
 
 if __name__ == "__main__":
